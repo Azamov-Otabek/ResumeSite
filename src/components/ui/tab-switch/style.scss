@@ -1,0 +1,123 @@
+.btns{
+    max-width: 1387px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        width: 100%;
+        padding: 30px 60px;
+        background: transparent;
+        border: none !important;
+        font-weight: 700;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        
+        
+        :hover{
+            background: #0D316F !important; 
+        }
+    }
+}
+
+.active{
+    background: #143E8A !important;
+}
+
+
+.content-tabs{
+    padding: 50px 30px;
+    max-width: 1387px;
+    margin: 0 auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#143e8a), to(#062c67));
+    height: 450px;
+    overflow-y: hidden;
+    
+    .steps{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            video{
+                max-width: 100% !important;
+                width: 571px;
+            }
+
+            img{
+                max-width: 100% !important;
+                width: 571px;
+            }
+        }
+
+        .steps-text{
+            max-width: 100%;
+            width: 700px;
+            text-align: center;
+
+            h3{
+                color: rgba(255, 255, 255, 0.728);
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 18px;
+                color: rgba(255, 255, 255, 0.443);
+                line-height: 2;
+                margin-bottom: 35px;
+            }
+            button{
+                max-width: 100%;
+                width: 200px;
+                padding: 15px 0;
+                background: #17AF7D;
+                border: none;
+                color: white;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 700;
+                border-radius: 6px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .btns{
+        button{
+            padding: 10px 20px;
+        }
+    }
+
+    .steps{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content-tabs{
+        height: auto
+    }
+}
+
+@media screen and (max-width: 576px){
+    .btns{
+        button{
+            padding: 5px 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .btns{
+        button{
+            padding: 0;
+            font-size: 12px;
+            height: 100px;
+        }
+        
+    }
+}

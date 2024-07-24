@@ -1,0 +1,36 @@
+.header{
+    background: #1A1450;
+    color: white !important;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0 ;
+    left: 0;
+    z-index: 99;
+    box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.648);
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .Link{
+            color: white ;
+            h2{
+                max-width: 300px;
+            }
+        }
+
+        button{
+            background: transparent !important;
+            color: white !important;
+            max-width: 100% !important;
+            width: 120px;
+            
+            :hover{
+                border: 1px solid #1A1450 !important;
+                background: #1A1450 !important;
+            }
+        }
+    }
+}
