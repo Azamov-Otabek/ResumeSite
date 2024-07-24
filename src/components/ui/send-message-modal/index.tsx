@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button, Form, Modal } from "antd";
 import { ProFormText } from "@ant-design/pro-components";
 import axios from "axios";

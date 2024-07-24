@@ -1,4 +1,4 @@
-import { BarChartOutlined, DesktopOutlined, TeamOutlined } from "@ant-design/icons";
+import {TeamOutlined } from "@ant-design/icons";
   
 export const Root = [
     {

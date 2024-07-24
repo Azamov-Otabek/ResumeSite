@@ -1,6 +1,6 @@
 import { Header } from "@components";
 import "./style.scss";
-import { CheckOutlined, LockOutlined, MailOutlined, PhoneOutlined } from "@ant-design/icons";
+import { CheckOutlined, LockOutlined, MailOutlined } from "@ant-design/icons";
 import { ProFormText } from "@ant-design/pro-components";
 import { Button, Form } from "antd";
 import { useNavigate } from "react-router-dom";
